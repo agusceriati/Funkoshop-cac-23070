@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap");
+
+:root {
+  --primary-color: #30343f;
+  --white: #ffffff;
+  --black: #111111;
+  --gray0: #857b7b;
+  --gray1: #4f4f4f;
+  --gray2: #30343f;
+  --red1: #ff3333;
+  --blue1: #1d84b5;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-extraBold: 800;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.text--upper {
+  text-transform: uppercase;
+}
+  
+  body {
+    background-image: url(.);
+  }
+
+  h2{
+    text-align: center;
+    font-size: 42px;
+    height: 49px;
+    Top: 180px;
+    Left:45.95px;
+ }
+a{
+    margin-top: 10px;
+}
+
+ p{
+font-size: 30px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.04em;
+height: 20px;
+margin-top: 30px;
+
+color: #1F1F1F;
+
+}
+
+
+/* Header */
+.header {
+    height: 9em;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .logo {
+    height: 65px;
+    overflow: hidden;
+  }
+  
+  .logo img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .menu {
+    height: 1.875em;
+    line-height: 1.875em;
+  }
+  
+  .menu__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu__item {
+    padding: 0 0.625em;
+  }
+  
+  .menu__link {
+    color: var(--white);
+    font-weight: var(--font-medium);
+    font-size: 1.25em;
+    padding: 0.31em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: default;
+  }
+  
+  .menu__link:hover {
+    color: var(--primary-color);
+    background-color: var(--white);
+  }
+  
+
+/* Form syle */
+
+/* Formulario login */
+  
+.form {
+    background-color: rgb(255, 255, 255);
+}
+
+
+::placeholder {
+     color: rgb(131, 133, 135);
+}
+
+
+input, text{
+    color: #000;
+}
+
+  .form-register {
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 21.25em;
+    background-color: var(--primary-color);
+    margin-top: 4.25em;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+  }
+  
+  .footer__content {
+    max-width: 76.25em;
+    width: 90%;
+    margin: 0 auto;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .footer-menu__items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+  }
+  
+  .footer-menu__link {
+    font-weight: var(--font-medium);
+    font-size: 1.25em;
+    color: var(--white);
+    padding: 0.31em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    cursor: default;
+  }
+  
+  .footer-menu__link:hover {
+    color: var(--primary-color);
+    background-color: var(--white);
+  }
+  
+  .footer__image {
+    height: 7.5em;
+    overflow: hidden;
+  }
+  
+  .footer__image img {
+    width: 100%;
+  }
+  
+  .footer__copyright {
+    font-weight: var(--font-medium);
+    font-size: 1.25em;
+    color: var(--white);
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  
