@@ -224,7 +224,7 @@ ul {
   /* flex-wrap: wrap; */
   /* gap: 0.31em; */
   /* justify-content: space-between; */
-  overflow-x: auto;
+  overflow-x:scroll;
   scroll-snap-type: x mandatory;
   gap: 20px;
 }
