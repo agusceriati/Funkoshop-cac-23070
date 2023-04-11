@@ -224,8 +224,10 @@ ul {
   /* flex-wrap: wrap; */
   /* gap: 0.31em; */
   /* justify-content: space-between; */
-  overflow-x:scroll;
-  scroll-snap-type: x mandatory;
+  overflow-x: auto;
+ scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
   gap: 20px;
 }
 
