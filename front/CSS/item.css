@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap");
+
+:root {
+  --primary-color: #30343f;
+  --white: #ffffff;
+  --black: #111111;
+  --gray0: #857b7b;
+  --gray1: #4f4f4f;
+  --gray2: #30343f;
+  --red1: #ff3333;
+  --blue1: #1d84b5;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-extraBold: 800;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  color: var(--black);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.text--upper {
+  text-transform: uppercase;
+}
+
+
+/* ITEM */
+
+.item {
+    background-color: var(--light-font-solid);
+    transition: box-shadow 0.3s ease;
+    flex: 0 0 21.875rem;
+    scroll-snap-align: center;
+  }
+  
+  .item:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .item a {
+    text-decoration: none;
+    color: var(--dark-item-text);
+  }
+  
+  .item__image {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .item__image img {
+    width: 100%;
+  }
+  
+  .item__new-message {
+    display: none;
+    width: 6.25em;
+    height: 1.87em;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    font-weight: var(--medium);
+    font-size: 0.875em;
+    line-height: 1.87em;
+    text-align: center;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    position: absolute;
+    right: 0;
+  }
+  
+  .item__new {
+    display: block;
+  }
+  
+  /* .item__new-message:hover {
+      background-color: var(--black);
+      color: var(--white);
+    } */
+  
+  .item__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.81em;
+    padding: 0.625em;
+  }
+  
+  .item__seaga {
+    font-weight: var(--medium);
+    font-size: var(--font-small);
+  }
+  
+  .item__name {
+    font-weight: var(--bold);
+    font-size: var(--font-small);
+    color: var(--dark-solid);
+  }
+  
+  .item__price {
+    font-weight: var(--regular);
+    font-size: var(--font-small);
+  }
+  .item__amount-fees {
+    font-weight: var(--bold);
+    font-size: var(--font-xsmall);
+    color: var(--secondary-solid);
+  }
+  
+  @media (min-width: 768px) {
+    .item__name {
+      font-weight: var(--bold);
+      font-size: var(--font-medium);
+    }
+  }
+  
