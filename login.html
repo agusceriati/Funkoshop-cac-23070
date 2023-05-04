@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrate</title>
+    <title>FunkoShop - Tienda online de Funko Pop! | Login |</title>
+    <link
+    rel="shortcut icon"
+    href="Front/branding/isotype.svg"
+    type="image/x-icon"
+  />
     <link rel="stylesheet" href="Front/CSS/login.css">
     <link rel="stylesheet" href="Front/CSS/styles.css">
     <link rel="stylesheet" href="Front/CSS/menu.css">
@@ -39,7 +44,7 @@
 
 <p>Completa el formulario para ser parte del mundo de los Funkos </p>
 
-<div class="form">
+<form class="form"  onsubmit="return validarFormulario()">
     <section class="form-register">
         <h4>Formulario Registro</h4>
         <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
@@ -51,7 +56,7 @@
         <input class="botons" type="submit" value="Registrar"> 
         <p><a href="#">¿Ya tengo Cuenta?</a></p> 
       </section>
-</div>
+</form>
 
 </div>
 
@@ -70,7 +75,7 @@
                 <a href="#" class="footer-menu__link">ingresar</a>
               </li>
               <li class="footer-menu__item">
-                <a href="#" class="footer-menu__link">contacto</a>
+                <a href="item.html" class="footer-menu__link">contacto</a>
               </li>
             </ol>
           </nav>
@@ -82,5 +87,7 @@
           All rights reserved 2022 - FunkoShop &copy;
         </div>
       </footer>
+
+      <script src="./JS/index.js  "></script>
 </body>
 </html>

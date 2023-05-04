@@ -1,0 +1,86 @@
+.container-item-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 400px;
+    width: 50%;
+    margin: 30px 0px;
+}
+.btn {
+        display: inline-block;
+        background-color: #4F4F4F;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+        transition: background-color 0.2s ease-in-out;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+}
+.btn:hover {
+    background-color: #4F4F4F;
+}
+.btn:active {
+    background-color: #4F4F4F;
+}
+.btn-minus{
+    background-color: #4F4F4F;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease-in-out;
+    border: none;    
+
+    
+}
+
+.adding-to-cart{
+
+background: #4F4F4F;
+
+background-color: #FF3333;
+color: #fff;
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+user-select: none;
+transition: background-color 0.2s ease-in-out;
+margin-left: 1.5em;
+border: none;
+}
+
+.btn.add:hover {
+    background-color: #042135;
+}
+.btn.add:active {
+    background-color: #4F4F4F;
+}
+.counter {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+   
+}
+
+.item-below, a{
+    color: #1879b9;
+    font-weight: bold;
+}
+.item-underline-below{
+
+    text-decoration: underline;
+}
+
