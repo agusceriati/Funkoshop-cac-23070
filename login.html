@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -9,7 +10,7 @@
       href="Front/branding/isotype.svg"
       type="image/x-icon"
     />
-    <title>FunkoShop | Login | Tienda online de Funko Pop</title>
+    <title>FunkoShop - Tienda online de Funko Pop!</title>
     <!-- Bootstrap -->
     <link
       rel="stylesheet"
@@ -17,9 +18,7 @@
     />
     <!-- Estilos -->
     <link rel="stylesheet" href="/Front/CSS/Home.css" />
-    <link rel="stylesheet" href="/Front/CSS/menu.css" />
     <link rel="stylesheet" href="/Front/CSS/login.css" />
-    <link rel="stylesheet" href="/Front/CSS/styles.css" />
       <link  rel="shortcut icon" href="/Front/branding/isotype.svg"  type="image/x-icon"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -33,52 +32,176 @@
 
 
   </head>
-<body>
-    <!-- Header -->
-
+  <body>
     <header class="header">
-        <picture class="logo">
-          <a href="index.html"> <img
-            src="Front/branding/logo_light_horizontal.svg"
-            alt="FunkoShop logo"
-            class="logo__image"
-          /></a>
-        </picture>
-        <nav class="menu text--upper">
-          <ul class="menu__items">
-            <li class="menu__item">
-              <a href="index.html" class="menu__link">Salir</a>
-            </li>
-            
-          </ul>
-        </nav>
-      </header>
+      <picture class="logo">
+        <a href="index.html">
+          <img
+          src="Front/branding/logo_light_horizontal.svg"
+          alt="FunkoShop logo"
+          class="logo__image"
+        /></a>
+        
+      </picture>
+      <nav class="menu text--upper">
+        <ul class="menu__items">
+          <li class="menu__item">
+            <a href="shop.html" class="menu__link">Shop</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contacto</a>
+          </li>
+          <li class="menu__item">
+            <a href="login.html" class="menu__link">Login</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link"><i class="bi bi-cart"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-<!-- Formulario para crear cuenta -->
+    
+ <!-- Formulario para crear cuenta -->
 <div class="form_funko">
 
 <h2>Crea tu cuenta</h2>
 
 <p>Completa el formulario para ser parte del mundo de los Funkos </p>
 
-<form class="form"  onsubmit="return validarFormulario()">
-    <section class="form-register">
-        <h4>Formulario Registro</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
-        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
-        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña nuevamente">
-        <p> <a href="#">Estoy de acuerdo con Terminos y Condiciones</a></p>
-        <input class="botons" type="submit" value="Registrar"> 
-        <p><a href="#">¿Ya tengo Cuenta?</a></p> 
-      </section>
-</form>
+<section >
+
+	<div class="form_consulta">
+		<form class="form"  onsubmit="return validarFormulario()">
+			<section class="form-register">
+				<h4>Formulario Registro</h4>
+				<input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">
+				<input class="controls" type="text" name="apellido" id="apellidos" placeholder="Ingrese su Apellido">
+				<input class="controls" type="email" name="email" id="correo" placeholder="Ingrese su Correo">
+				<input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña">
+				<input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su Contraseña nuevamente">
+				<p> <a href="#">Estoy de acuerdo con terminos y condiciones</a></p>
+				<input class="botons" type="submit" value="Registrar"> 
+				<p><a href="#">¿Ya tengo Cuenta?</a></p> 
+			  </section>
+		</form>
+	</div>
+</section>
 
 </div>
-
-      <!-- Footer -->
-     <footer class="footer">
+    
+          <!-- <article class="item">
+            <a href="front/shop/items/stormtrooper_lightsaber.html">
+              <figure class="item__image">
+              <div class="item__button">nuevo</div> 
+              <img
+                src="../star-wars/trooper-1.webp"
+                alt="Trooper image"
+              />
+              </figure>
+              <div class="item__info">
+              <h4 class="item__saga">star wars</h4>
+              <h3 class="item__name">stromtrooper lightsaber</h3>
+              <div class="item__price">$ 1799,99-</div>
+              <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+          <!-- Item 2-->
+          <!-- <article class="item">
+            <a href="front/shop/items/pidgeotto.html">
+              <figure class="item__image">
+                <div class="item__button">nuevo</div>
+                <img
+                  src="../pokemon/pidgeotto-1.webp"
+                  alt="Pidgeotto image"
+                />
+              </figure>
+              <div class="item__info">
+                <h4 class="item__saga">pokemón</h4>
+                <h3 class="item__name">pigeotto</h3>
+                <div class="item__price">$ 1799,99-</div>
+                <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+          <!-- Item 3 -->
+          <!-- <article class="item">
+            <a href="front/shop/items/luna_lovegood_lion_mask.html">
+              <figure class="item__image">
+              <div class="item__button">nuevo</div>
+                <img
+                  src="../harry-potter/luna-1.webp"
+                  alt="Trooper image"
+                />
+              </figure>
+              <div class="item__info">
+                <h4 class="item__saga">harry potter</h4>
+                <h3 class="item__name">luna lovegood lion mask</h3>
+                <div class="item__price">$ 1799,99-</div>
+                <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+          <!-- Item 1 -->
+          <!-- <article class="item">
+            <a href="front/shop/items/stormtrooper_lightsaber.html">
+              <figure class="item__image">
+              <div class="item__button">nuevo</div> 
+              <img
+                src="../star-wars/trooper-1.webp"
+                alt="Trooper image"
+              />
+              </figure>
+              <div class="item__info">
+              <h4 class="item__saga">star wars</h4>
+              <h3 class="item__name">stromtrooper lightsaber</h3>
+              <div class="item__price">$ 1799,99-</div>
+              <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+          <!-- Item 2-->
+          <!-- <article class="item">
+            <a href="front/shop/items/pidgeotto.html">
+              <figure class="item__image">
+                <div class="item__button">nuevo</div>
+                <img
+                  src="../pokemon/pidgeotto-1.webp"
+                  alt="Pidgeotto image"
+                />
+              </figure>
+              <div class="item__info">
+                <h4 class="item__saga">pokemón</h4>
+                <h3 class="item__name">pigeotto</h3>
+                <div class="item__price">$ 1799,99-</div>
+                <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+          <!-- Item 3 -->
+          <!-- <article class="item">
+            <a href="front/shop/items/luna_lovegood_lion_mask.html">
+              <figure class="item__image">
+              <div class="item__button">nuevo</div>
+                <img
+                  src="../star-wars/trooper-1.webp"
+                  alt="Trooper image"
+                  loading="lazy"
+                />
+              </figure>
+              <div class="item__info">
+                <h4 class="item__saga">harry potter</h4>
+                <h3 class="item__name">luna lovegood lion mask</h3>
+                <div class="item__price">$ 1799,99-</div>
+                <div class="item__amount-fees">3 cuotas sin interés</div>
+              </div>
+            </a>
+          </article> -->
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
       <div class="footer__content">
         <nav class="footer__menu text--upper">
           <ul class="footer-menu__items">
@@ -104,5 +227,12 @@
         All rights reserved 2022 - FunkoShop &copy;
       </div>
     </footer>
+    <script src="JS/form.js"></script>
   </body>
 </html>
+
+
+
+
+
+
