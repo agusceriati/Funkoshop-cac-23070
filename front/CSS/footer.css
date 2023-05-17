@@ -53,6 +53,8 @@ ul {
     background-color: var(--dark-bg-solid);
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
   
   .footer__content {
@@ -95,6 +97,7 @@ ul {
   
   .footer__image img {
     width: 100%;
+    color:#ffffff
   }
   
   .footer__copyright {

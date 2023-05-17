@@ -52,6 +52,15 @@ ul {
     flex: 0 0 21.875rem;
     scroll-snap-align: center;
   }
+
+  /* Edito las dimensiones predeterminadas de la imágen luna2 */
+  
+  .luna_image {
+    width: 600px;
+    height: 600px;
+  }
+
+  /* ---------------- */
   
   .item:hover {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
