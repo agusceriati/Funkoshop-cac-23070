@@ -20,5 +20,5 @@ To build this project, I am going to use the following technologies and developm
   <li>MVC Architecture </li>
   <li>Template Engines </li>
   <li>MySQL and database administrators</li>
-</ul> <br> <br>
+</ul> <br>
 I have already the design of each part of the website made by FIGMA. Though the challenge is significant, it is not impossible. With the knowledge I will gain from the #CAC bootcamp, I will be able to accomplish it.
