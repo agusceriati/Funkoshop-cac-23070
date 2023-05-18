@@ -2,33 +2,23 @@
 
 <h1>FUNKOPOPSHOP CAC</h1>
 
+The website has two essential parts:
 
-The website have to 2 essential parts:
+First, you will have the front side of the page where clients will be able to see the stock products, prices, and features.
 
-First, you going to have 
-the front side of the page in which the clients are going to be able 
-to see the stock products, the prices, and features.
+Secondly, the website will have a "backoffice" for shop management. This section will allow you to view the list of uploaded products and their stock. You will have the ability to add, edit, and remove items and their properties. Any changes made in the backoffice will be displayed in real time on the client's side.
 
-Secondly, the website it's going to have the "backoffice" for the management of the shop,
-in order to see the list of products upload and its stock,
-with the possibility to add,edit and remove items and its properties, and those changes can be displayde on the client's side in real time.
+To build this project, I am going to use the following technologies and development tools:
 
-To build this project, I am going to use this technologies and tools of development:
+FIGMA
+HTML
+CSS (Bootstrap optional)
+JavaScript
+GIT and GITHUB
+Node.js + Express.js
+NPM
+MVC Architecture
+Template Engines
+MySQL and database administrators
 
-
-- FIGMA
-- HTML
-- CSS (Bootstrap optional)
-- Javascript
-- GIT y GITHUB
-- Node JS + Express JS
-- NPM
-- Arquitechture MVC
-- Template Engines
-- MySQL and DDBB administrators
-
-
-I have the design of the website made on FIGMA of each part of the website.
-The challenge is big but not impossible. Through the knowledge I'm going to have after the #CAC bootcamp,
-I'm going to be able to do it.
-
+I have already the design of each part of the website made by FIGMA. Though the challenge is significant, it is not impossible. With the knowledge I will gain from the #CAC bootcamp, I will be able to accomplish it.
