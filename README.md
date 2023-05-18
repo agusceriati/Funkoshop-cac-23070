@@ -12,7 +12,7 @@ To build this project, I am going to use the following technologies and developm
 <ul>
   <li>FIGMA </li>
   <li>HTML</li
-  <li>CSS (Bootstrap optional) </li>
+  <li>CSS (Bootstrap optional)</li>
   <li>JavaScript </li>
   <li>GIT and GITHUB </li>
   <li>Node.js + Express.js </li>
