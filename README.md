@@ -1,6 +1,8 @@
-# Funkoshop-cac-23070
+# [Funkoshop-cac-23070 ](.)
 
-The website has two essential parts:
+![https://funkoshop-tiendaoficial.netlify.app](./Front/icons/Screenshoot.png)
+
+## The website has two essential parts:
 
 First, you will have the front side of the page where clients will be able to see the stock products, prices, and features.
 
