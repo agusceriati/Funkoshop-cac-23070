@@ -1,6 +1,6 @@
 # [Funkoshop-cac-23070 ](.)
 
-![https://funkoshop-tiendaoficial.netlify.app](./Front/icons/Screenshoot.png)
+![https://funkoshop-tiendaoficial.netlify.app](./front/icons/Screenshoot.png)
 
 ## The website has two essential parts:
 
